@@ -12,7 +12,7 @@ export type Checkpoint =
 export type FinalResponse =
     | 'lets_go'
     | 'maybe_another_time'
-    | 'check_schedules'
+    | 'check_schedule'
 
 export interface GameState {
     version: 1
